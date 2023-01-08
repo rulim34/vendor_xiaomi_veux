@@ -1,0 +1,45 @@
+{
+  "config":{
+    "hw_platform": ["QRD"],
+    "soc_id": ["507"]
+  },
+  "sensor_devinfo": {
+    "owner": "NA",
+    ".gyro_lsm6dso":{
+      "owner": "NA",
+      "cal_path": {"type": "str", "ver": "0",
+                   "data": "lsm6dso_0_platform.gyro.fac_cal.bias"
+      }
+    },
+    ".gsensor_lsm6dso":{
+      "owner": "NA",
+      "cal_path": {"type": "str", "ver": "0",
+                   "data": "lsm6dso_0_platform.accel.fac_cal.bias"
+      }
+    },
+    ".gyro_icm4x6xx":{
+      "owner": "NA",
+      "cal_path": {"type": "str", "ver": "0",
+                   "data": "icm4x6xx_0_platform.gyro.fac_cal.bias"
+      }
+    },
+    ".gsensor_icm4x6xx":{
+      "owner": "NA",
+      "cal_path": {"type": "str", "ver": "0",
+                   "data": "icm4x6xx_0_platform.accel.fac_cal.bias"
+      }
+    },
+    ".als_rohm_bu27030": {
+      "owner": "NA",
+      "cal_path": {"type": "str", "ver": "0",
+                   "data": "bu27030_0_platform.ambient_light.fac_cal"
+      }
+    },
+    ".als_rohm_bu27030_leak": {
+      "owner": "NA",
+      "cal_path": {"type": "str", "ver": "0",
+                   "data": "bu27030_0_platform.ambient_light.fac_leak_cal"
+      }
+    }
+  }
+}
