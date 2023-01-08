@@ -49,15 +49,5 @@ DELETE FROM qcril_emergency_source_mcc_table where MCC = '515' AND NUMBER = '192
 INSERT INTO qcril_emergency_source_mcc_table VALUES('515','192','','');
 DELETE FROM qcril_emergency_source_mcc_table where MCC = '515' AND NUMBER = '911';
 INSERT INTO qcril_emergency_source_mcc_table VALUES('515','911','','');
-DELETE FROM qcril_emergency_source_mcc_table where MCC = '520' AND NUMBER = '191';
-INSERT INTO qcril_emergency_source_mcc_table VALUES('520','191','','');
-DELETE FROM qcril_emergency_source_mcc_table where MCC = '520' AND NUMBER = '1669';
-INSERT INTO qcril_emergency_source_mcc_table VALUES('520','1669','','');
-DELETE FROM qcril_emergency_source_mcc_table where MCC = '520' AND NUMBER = '199';
-INSERT INTO qcril_emergency_source_mcc_table VALUES('520','199','','');
-DELETE FROM qcril_emergency_source_mcc_table where MCC = '520' AND NUMBER = '112';
-INSERT INTO qcril_emergency_source_mcc_table VALUES('520','112','','');
-DELETE FROM qcril_emergency_source_mcc_table where MCC = '520' AND NUMBER = '911';
-INSERT INTO qcril_emergency_source_mcc_table VALUES('520','911','','');
 INSERT INTO qcril_emergency_source_mcc_table VALUES('655','112','','');
 INSERT INTO qcril_emergency_source_mcc_table VALUES('655','911','','');
